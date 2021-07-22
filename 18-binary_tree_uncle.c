@@ -1,6 +1,11 @@
 #include "binary_trees.h"
 
-
+/**
+ * binary_tree_uncle - Find uncle of a node
+ * @node: the node to check
+ * ----------------------------
+ * Return: the uncleor NULL if fails
+*/
 binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
 	binary_tree_t *root = NULL;
